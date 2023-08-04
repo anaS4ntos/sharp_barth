@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Sharp_Barth
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //declarar variavel
+            //int numero = 0;
+
+            int ano = 2020;
+            double ano2 = ano;
+
+            // ao colocar a variavel ano em double o numero é convertido.
+
+            double quebrado = 12.98;
+            int quebrado2 = (int)quebrado;
+
+            // int não aceita o valor pois ele é decimal. int só aceita numeros inteiros
+            // conversão de tipos/casting
+            //gera perda de dados
+
+
+            Console.WriteLine(quebrado2);
+            Console.ReadKey();
+
+
+
+
+
+
+        }
+    }
+}
+
